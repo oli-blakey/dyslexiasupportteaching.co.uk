@@ -1,0 +1,110 @@
+baseurl = "http://www.dyslexiasupportteaching.co.uk/"
+languageCode = "en-us"
+title = "Dyslexia support teaching"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Dyslexia support teaching"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			method    = "method"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Unlocking your child's full potential"
+		subtitle   = "After-school and weekend tuition using a structured multi-sensory literacy programme for pupils aged five and over, who may be experiencing learing difficulties."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "I can help your child to reach their full potential at school!"
+		description = "My name is Daphne Blakey, I am a qualified specialist dyslexia teacher with over twenty years experience, currently working in a local primary school. I specialise in helping young children with learning and commication difficulties."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "After-school Tuition"
+            description = "I offer after-school and weekend tuition."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Dyslexia"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Dyspraxia"
+            description = "Specialised Dyspraxia teaching"
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Asperger syndrome"
+            description = "Individual plans tailed for Asperger syndrome"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	##[params.aside]
+	#	headline = "Get the Creative Theme for Hugo"
+
+	#	[params.aside.button]
+	#		text = "Download now"
+	#		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Faliure to give each individual a chance to shine and fulfil thier true potential is one of the greatest tragedies of our time"
+		phone = "01935 872365"
+		email = "daphneblakey@gmail.com"
+
+	# Google Maps section
+	 [params.location]
+	 	latitude  = "50.895758"
+	 	longitude = "-2.598111"
+	# 	maps_api_key = ""
+
+
