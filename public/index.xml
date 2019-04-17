@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dyslexia support teaching</title>
-    <link>http://www.dyslexiasupportteaching.co.uk/</link>
+    <link>https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/</link>
     <description>Recent content on Dyslexia support teaching</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://www.dyslexiasupportteaching.co.uk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
