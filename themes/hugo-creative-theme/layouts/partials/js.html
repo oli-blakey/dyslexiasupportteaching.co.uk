@@ -1,4 +1,4 @@
-{{ "<!-- jQuery -->" | safeHTML }}
+{{ "<!-- jQuery1 -->" | safeHTML }}
 <script src="{{ "js/jquery.js" | absURL }}"></script>
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
 <script src="{{ "js/bootstrap.min.js" | absURL }}"></script>
@@ -12,4 +12,8 @@
 <script src="{{ "js/gmaps.init.js" | absURL }}"></script>
 {{ end }}
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
-<script src="{{ "js/creative.js" | absURL }}"></script>
+{{printf "var rootURL: '%s'; var apiURL: '%s';" (absURL "/") }}
+<!--currently symlinked from static/js/ to assets/js/ due to resources.Get limitations-->
+{{ $creativeJS := resources.Get "js/creative.js" }}
+{{ $creativeJSmin := $creativeJS | resources.Minify}}
+<script src="{{ $creativeJSmin.Permalink }}"></script>
