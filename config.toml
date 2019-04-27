@@ -53,6 +53,15 @@ googleAnalytics = ""
 		description = "My name is Daphne Blakey, I am a qualified specialist dyslexia teacher with over twenty years experience, currently working in a local primary school. I specialise in helping young children with learning and commication difficulties."
 		buttonText  = "Contact details"
 
+	# Gallery
+	[params.gallery]
+		image1 = "img/header.jpg"
+
+    # Testimonials
+	[params.testimonials]
+    enable = true
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 	# Service section
 	[params.services]
