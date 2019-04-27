@@ -123,4 +123,8 @@ googleAnalytics = ""
 	 	longitude = "-2.598111"
 	# 	maps_api_key = ""
 
+	#Footer
+	[params.footer]
+		footerText = "This website uses cookies. By continuing to browse this site you are agreeing to our use of cookies."
+
 
