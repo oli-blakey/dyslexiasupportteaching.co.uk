@@ -6,6 +6,8 @@
 {{ .Hugo.Generator }}
 <title>{{ .Site.Title }}</title>
 
+<!--nb style.default.css from universal theme overridding creative theme css elements TODO get just whats needed for testimonials css and put in custom.css file # dirty hack-->
+<link href="{{ "css/style.default.css" | relURL}}" rel="stylesheet" id="theme-stylesheet">
 {{ "<!-- Favicon -->" | safeHTML }}
 <link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}">
 {{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
@@ -19,6 +21,9 @@
 {{ "<!-- Custom CSS -->" | safeHTML }}
 <link rel="stylesheet" href="{{ "css/creative.css" | absURL }}" type="text/css">
 <link rel="stylesheet" href="{{ "css/modals.css" | absURL }}" type="text/css">
+<link rel="stylesheet" href="{{ "css/hugo-easy-gallery.css" | absURL }}" type="text/css">
+<link rel="stylesheet" href="{{ "css/owl.carousel.css" | absURL }}" type="text/css">
+<link rel="stylesheet" href="{{ "css/owl.theme.css" | absURL }}" type="text/css">
 
 {{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
 {{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}

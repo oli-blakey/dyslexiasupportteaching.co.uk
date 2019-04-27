@@ -57,6 +57,12 @@ googleAnalytics = ""
 	[params.gallery]
 		image1 = "img/header.jpg"
 
+	[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
     # Testimonials
 	[params.testimonials]
     enable = true
