@@ -1,8 +1,8 @@
 <footer>
   <div>
-    <p>
-   	{{.Site.Params.footer.footerText}}
-    &copy; 2019 Oliver Blakey.
-    </p>
+    {{.Content}}
+     	{{with .Site.GetPage "/footer/footerText.md"}}
+    {{.Content}}
+    {{end}}
   </div>
 </footer>

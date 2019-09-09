@@ -20,29 +20,29 @@
             {{ partial "services.html" . }}
         {{ end }}
 
+        {{ partial "photos.html" . }}
+        
         {{ if .Site.Data.projects }}
             {{ partial "portfolio.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.location }}
-            {{ partial "location.html" . }}
-        {{ end }}
-
         {{ if .Site.Params.aside }}
             {{ partial "aside.html" . }}
-        {{ end }}
-
-        {{if .Site.Params.gallery }}
-            {{partial "gallery.html" . }}
         {{ end }}
         
         {{if .Site.Params.testimonials }}
             {{partial "testimonials.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.location }}
+            {{ partial "location.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.contact }}
             {{ partial "contact.html" . }}
         {{ end }}
+        
+        {{partial "form.html" .}}
 
         {{ if .Site.Data.projects }}
             {{ partial "modals.html" . }}

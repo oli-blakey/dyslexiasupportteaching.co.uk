@@ -31,6 +31,16 @@
                         <a class="page-scroll" href="#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
                     </li>
                 {{ end }}
+                {{ if .Site.Params.navigation.links.photos }}
+                <li>
+                    <a class="page-scroll" href="#photos">{{ .Site.Params.navigation.links.photos }}</a>
+                </li>
+                {{ end }}
+                {{ if .Site.Params.navigation.links.testimonials }}
+                <li>
+                    <a class="page-scroll" href="#testimonials">{{ .Site.Params.navigation.links.testimonials }}</a>
+                </li>
+                {{ end }}                
                 {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
                 <li>
                     <a class="page-scroll" href="#location">{{ .Site.Params.navigation.links.location }}</a>

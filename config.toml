@@ -4,6 +4,9 @@ title = "Dyslexia support teaching"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
+enableInlineShortcodes = true
+
+
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
@@ -34,7 +37,10 @@ googleAnalytics = ""
 		[params.navigation.links]
 			about     = "About"
 			services  = "Services"
+			location = "Location"
 			portfolio = "Portfolio"
+			photos = "Photos"
+			testimonials = "Testimonials"
 			method    = "Method"
 			contact   = "Contact"
 

@@ -1,0 +1,21 @@
+<section id="photos" class="no-padding">
+        {{.Content}}
+            {{with .Site.GetPage "/posts/gallery1.md"}}
+        {{.Content}}
+        {{end}}
+
+        {{.Content}}
+            {{with .Site.GetPage "/posts/gallery2.md"}}
+        {{.Content}}
+        {{end}}
+
+        {{.Content}}
+            {{with .Site.GetPage "/posts/gallery3.md"}}
+        {{.Content}}
+        {{end}}
+
+        {{.Content}}
+            {{with .Site.GetPage "/posts/gallery.md"}}
+        {{.Content}}
+        {{end}}
+</section>

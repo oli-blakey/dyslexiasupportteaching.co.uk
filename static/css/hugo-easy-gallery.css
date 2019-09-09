@@ -9,8 +9,8 @@ Grid Layout Styles
 */
 .gallery {
     overflow: hidden;
-    margin: 10px;
-    max-width: 768px;
+    margin-left: 10%;
+    max-width: 80%;
 }
 .gallery .box {
     float: left;
@@ -33,9 +33,13 @@ Grid Layout Styles
         padding-bottom: 33.3%; /*  */
     }
 }
-@media only screen and (min-width : 9999px) {
+@media only screen and (min-width : 1080px) {
    /* Medium desktop: 4 tiles */
-   .box {
+   .gallery {
+    margin-left: 10%;
+    max-width: 80%;
+   }
+   .gallery .box {
       width: 25%;
       padding-bottom: 25%;
    }
@@ -157,3 +161,7 @@ figcaption p {
     margin: auto; /* override style in theme */
 }
 
+#photos{
+
+        text-align: center;
+}

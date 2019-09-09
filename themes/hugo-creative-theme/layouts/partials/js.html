@@ -19,10 +19,18 @@
 {{ end }}
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 {{printf "var rootURL: '%s'; var apiURL: '%s';" (absURL "/") }}
-<!--currently symlinked from static/js/ to assets/js/ due to resources.Get limitations-->
+<!--currently symlinked from static/js/ to assets/js/ due to resources.Get limitations #TODO symlink entire folder for ease-->
 {{ $creativeJS := resources.Get "js/creative.js" }}
 {{ $creativeJSmin := $creativeJS | resources.Minify}}
 <script src="{{ $creativeJSmin.Permalink }}"></script>
 <script src="{{ .Site.BaseURL }}js/front.js"></script>
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/respond.min.js"></script>
+<!--
+<script src="{{ .Site.BaseURL }}js/photoswipe.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/photoswipe-ui-default.min.js"></script>
+
+<script src="{{ .Site.BaseURL }}js/photoswipeInit.js"></script>
+
+<script src="{{ .Site.BaseURL }}js/gallery.js"></script>
+-->
