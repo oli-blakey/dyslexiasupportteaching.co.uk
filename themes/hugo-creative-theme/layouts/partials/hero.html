@@ -1,7 +1,12 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 <header>
+
+    <img src="img/smallTree.svg" id="smallTreeHero">
+    <img src="img/mediumTree.svg" id="mediumTreeHero">
+
     <div class="header-content">
         <div class="header-content-inner">
+
             {{ with .Site.Params.hero.slogan }}
                 <h1>{{ . | markdownify  }}</h1>
             {{ end }}
@@ -11,9 +16,12 @@
             {{ with .Site.Params.hero.subtitle }}
                 <p>{{ . | markdownify }}</p>
             {{ end }}
+
             {{ with .Site.Params.hero.buttonText }}
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
             {{ end }}
         </div>
     </div>
+
+
 </header>

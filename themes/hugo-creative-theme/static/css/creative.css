@@ -21,7 +21,21 @@ hr {
 }
 
 hr.light {
-    border-color: #fff;
+    border-color: #2c2c83ff;
+}
+
+#smallTreeHero {
+    width: 7%;
+    position: absolute;
+    bottom: 5rem;
+    left: 4rem;
+}
+
+#mediumTreeHero {
+    width: 10%;
+    position: absolute;
+    bottom: 5rem;
+    right: 4rem;
 }
 
 a {
@@ -33,7 +47,11 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #2c2c83;
+}
+
+#about {
+    padding-bottom: 0px;
 }
 
 #about a {
@@ -44,6 +62,24 @@ a:focus {
 #about a:focus {
     color: rgb(52, 52, 52);
 }
+
+#about h2{
+    color: #2c2c83ff;
+}
+
+
+
+#largeTreeAbout {
+    width: 80%;    
+    position: relative;
+
+    left: -30%;
+
+}
+
+#aboutText{
+}
+
 
 h1,
 h2,
@@ -70,7 +106,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(44,44,131,1);
 }
 
 section {
@@ -410,7 +446,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #2c2c83;
 }
 
 .btn-primary:active,
@@ -500,4 +536,3 @@ body {
     flex-flow: row wrap;
 
 }
-

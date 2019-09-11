@@ -1,11 +1,17 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
 <section class="bg-primary" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+    <div class="container-fluid">
+
+        <div class=" d-flex align-items-center">
+        <div class="col-lg-3 ">
+            <img src="img/largeTree.svg" id="largeTreeAbout">
+        </div>
+            <div class="col-lg-9 text-center" id="aboutText">
+          
                 {{ with .Site.Params.about.headline }}
                     <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
+
                 {{ if and .Site.Params.about.headline .Site.Params.about.description }}
                     <hr class="light">
                 {{ end }}
@@ -17,5 +23,6 @@
                 {{ end }}
             </div>
         </div>
+
     </div>
 </section>
