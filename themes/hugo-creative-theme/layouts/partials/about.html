@@ -2,16 +2,14 @@
 <section class="bg-primary" id="about">
     <div class="container-fluid">
 
-        <div class=" d-flex align-items-center">
-        <div class="col-lg-3 ">
+        <div class="row">
+        <div class="col-lg-3 vcenter">
             <img src="img/largeTree.svg" id="largeTreeAbout">
-        </div>
-            <div class="col-lg-9 text-center" id="aboutText">
-          
+        </div><!--
+            --><div class="col-lg-8 text-center vcenter" id="aboutText">
                 {{ with .Site.Params.about.headline }}
                     <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
-
                 {{ if and .Site.Params.about.headline .Site.Params.about.description }}
                     <hr class="light">
                 {{ end }}
