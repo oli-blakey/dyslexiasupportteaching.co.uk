@@ -51,7 +51,7 @@ a:focus {
 }
 
 #about {
-    padding-bottom: 0px;
+
 }
 
 #about a {
@@ -102,7 +102,11 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #2c2c83ff;
+}
+
+.bg-faded {
+    background-color: #d5d5e6ff;
 }
 
 .text-faded {
@@ -540,4 +544,12 @@ body {
     display: inline-block;
     vertical-align: middle;
     float: none;
+}
+
+#leftLeaves {
+    width: 50%;
+}
+
+#rightLeaves {
+    width: 100%;
 }

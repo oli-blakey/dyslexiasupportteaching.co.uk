@@ -1,5 +1,5 @@
 {{ "<!-- SERVICES -->" | safeHTML }}
-<section id="services">
+<section id="services" class="no-padding">
     {{ with .Site.Params.services.headline }}
         <div class="container">
             <div class="row">
@@ -10,10 +10,13 @@
             </div>
         </div>
     {{ end }}
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
+            <div class="col-lg-2">
+                    <img src="img/leftLeaves.svg" id="leftLeaves">
+            </div>
             {{ range .Site.Params.services.list }}
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-2 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
                     <h3>{{ .title }}</h3>
@@ -23,6 +26,9 @@
                 </div>
             </div>
             {{ end }}
+            <div class="col-lg-2">
+                    <img src="img/rightLeaves.svg" id="rightLeaves">
+            </div>
         </div>
     </div>
 </section>
