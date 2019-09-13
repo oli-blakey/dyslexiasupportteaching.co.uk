@@ -536,3 +536,8 @@ body {
     flex-flow: row wrap;
 
 }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
