@@ -4,10 +4,8 @@ date: 2019-08-08T16:43:12+01:00
 draft: false
 ---
 
-<h2>
-	Photos
-</h2>
-<p class="text-muted">
+
+<p class="">
 A typical lesson will start with revision of newly learnt sounds, then consolidation by going over the sound cards they made.
 </p>
 

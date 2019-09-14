@@ -1,4 +1,10 @@
-<section id="photos" class="no-padding bg-dark">
+<section id="photos" class=" bg-dark">
+<div style="position: sticky; top:100px;">    
+        <img src="img/mediumTree.svg" id="mediumTreePhotos">
+        <img src="img/wordTreeLessLetters.svg" id="wordTreeLessLettersPhotos">
+
+</div>
+
         {{.Content}}
             {{with .Site.GetPage "/posts/gallery1.md"}}
         {{.Content}}
@@ -13,9 +19,12 @@
             {{with .Site.GetPage "/posts/gallery3.md"}}
         {{.Content}}
         {{end}}
-
+{{/*
         {{.Content}}
             {{with .Site.GetPage "/posts/gallery.md"}}
         {{.Content}}
         {{end}}
+
+*/}}
+
 </section>

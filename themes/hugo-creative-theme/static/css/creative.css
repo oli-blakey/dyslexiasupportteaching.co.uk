@@ -94,6 +94,8 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+    z-index: 2;
+    position: relative;
 }
 
 .bg-primary {
@@ -552,4 +554,35 @@ body {
 
 #rightLeaves {
     width: 100%;
+}
+
+.box {
+    background-color: #2c2c83ff;
+}
+
+#photos {
+    margin-bottom: 0px;
+}
+
+#wordTreeLessLettersPhotos {
+
+    text-align: unset;
+
+    width:400px;
+position: absolute;
+right: 0;
+}
+
+#mediumTreePhotos {
+
+    text-align: unset;
+
+
+    position: absolute;
+    left: 0;
+}
+
+.posRel{
+    position: relative;
+    z-index: 1;
 }
