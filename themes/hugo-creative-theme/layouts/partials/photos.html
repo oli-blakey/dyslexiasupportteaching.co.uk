@@ -4,7 +4,7 @@
         <img src="img/wordTreeLessLetters.svg" id="wordTreeLessLettersPhotos">
 
 </div>
-
+        <!--gallery currently initialised in gallery1.md-->
         {{.Content}}
             {{with .Site.GetPage "/posts/gallery1.md"}}
         {{.Content}}
@@ -19,12 +19,4 @@
             {{with .Site.GetPage "/posts/gallery3.md"}}
         {{.Content}}
         {{end}}
-{{/*
-        {{.Content}}
-            {{with .Site.GetPage "/posts/gallery.md"}}
-        {{.Content}}
-        {{end}}
-
-*/}}
-
 </section>
