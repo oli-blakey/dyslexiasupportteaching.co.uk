@@ -357,8 +357,9 @@ header .header-content .header-content-inner p {
     margin-top: 0;
 }
 
-/*Services seciton*/
+/*Services seciton 560*/
 
+@media(min-width: 560px){
 #services{
     overflow: hidden;
     position: relative;
@@ -367,11 +368,29 @@ header .header-content .header-content-inner p {
     background-size: 130px;
     background-repeat: repeat-y;
     background-image: url(../img/leftLeaves.svg);
-}
 
+}
+}
+/*
 @media(min-width: 600px){    
 #services{
         background-size: 130px;
+}
+}
+*/
+@media(max-width: 560px){
+#services::after {
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-image: url(../img/leftLeaves.svg);
+    content: "";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
 }
 }
 
