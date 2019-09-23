@@ -94,9 +94,35 @@ a:focus {
     color: #2c2c83;
 }
 
-/*about section*/
-#about {
-    margin-bottom: 0;
+/*about section 768*/
+@media(min-width:768px){
+    #about {
+        margin-bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #largeTreeAbout {
+        width: 80%;    
+        left: 0;
+    }
+}
+
+@media(max-width:768px){
+    #about {
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+    }
+
+    #largeTreeAboutCol{
+        padding-left: 0px ;
+        padding-right: 0px;
+        left: -30%
+    }
+    #largeTreeAbout {
+        position: relative;
+        width:220%;
+    }
 }
 
 #about a {
@@ -110,12 +136,6 @@ a:focus {
 
 #about h2{
     color: #2c2c83ff;
-}
-
-#largeTreeAbout {
-    width: 80%;    
-    left: 0;
-
 }
 
 #aboutText{
@@ -342,9 +362,23 @@ header .header-content .header-content-inner p {
 #services{
     overflow: hidden;
     position: relative;
-
     margin-top: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    background-size: 130px;
+    background-repeat: repeat-y;
+    background-image: url(../img/leftLeaves.svg);
+}
+
+@media(min-width: 600px){    
+#services{
+        background-size: 130px;
+}
+}
+
+@media(min-width: 992px){    
+#services{
+        background-repeat: no-repeat;
+}
 }
 
 @media(min-width: 1200px) {
