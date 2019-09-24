@@ -319,7 +319,7 @@ ul.list-style-none {
   text-decoration: none !important;
   border-top: solid 5px #20616d;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .navbar ul.nav > li.active > a,
   .navbar ul.nav > li.open > a {
     border-top-color: transparent;
@@ -374,7 +374,7 @@ ul.list-style-none {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar ul.dropdown-menu li a:hover {
     left: 0;
   }
@@ -387,7 +387,7 @@ ul.list-style-none {
   border-bottom: dotted 1px #555555;
   letter-spacing: 0.08em;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar .yamm-content h3 {
     font-size: 14px;
   }
@@ -2786,7 +2786,7 @@ fieldset[disabled] .btn-template-primary.active {
 .nav-tabs-justified > .active > a:focus {
   border: 1px solid #38a7bb;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .nav-tabs-justified > li > a {
     border-bottom: 1px solid #38a7bb;
     border-radius: 0 0 0 0;
@@ -2809,12 +2809,12 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 0;
   border-bottom: 1px solid transparent;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar {
     border-radius: 0px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-header {
     float: left;
   }
@@ -2827,7 +2827,7 @@ fieldset[disabled] .btn-template-primary.active {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -2868,7 +2868,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-right: -15px;
   margin-left: -15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
@@ -2881,7 +2881,7 @@ fieldset[disabled] .btn-template-primary.active {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-static-top {
     border-radius: 0;
   }
@@ -2895,7 +2895,7 @@ fieldset[disabled] .btn-template-primary.active {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
@@ -2921,7 +2921,7 @@ fieldset[disabled] .btn-template-primary.active {
 .navbar-brand:focus {
   text-decoration: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
@@ -2950,7 +2950,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding-bottom: 10px;
   line-height: 20px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
@@ -2963,7 +2963,7 @@ fieldset[disabled] .btn-template-primary.active {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-nav {
     float: left;
     margin: 0;
@@ -2979,7 +2979,7 @@ fieldset[disabled] .btn-template-primary.active {
     margin-right: -15px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-left {
     float: left !important;
   }
@@ -2998,12 +2998,12 @@ fieldset[disabled] .btn-template-primary.active {
   margin-top: 14px;
   margin-bottom: 14px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-form {
     width: auto;
     border: 0;
@@ -3043,7 +3043,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-top: 21px;
   margin-bottom: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-text {
     float: left;
     margin-left: 15px;
@@ -3109,7 +3109,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #38a7bb;
   color: #ffffff;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #555555;
   }
