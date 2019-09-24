@@ -4,15 +4,17 @@
         <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Your name">
-<meta name="description" content="Your description">
-<meta name="generator" content="Hugo 0.47.1" />
+<meta name="author" content="Daphne Blakey">
+<meta name="description" content="Dyslexia Support teacher">
+<meta name="generator" content="Hugo 0.52" />
 <title>Dyslexia support teaching</title>
 
+
+<link href="/dyslexiasupportteaching.co.uk/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
 <!-- Favicon -->
 <link rel="shortcut icon" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/favicon.ico">
 <!-- Bootstrap Core CSS -->
-<link rel="stylesheet" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/css/bootstrap.css" type="text/css">
 <!-- Custom Fonts -->
 <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -22,6 +24,13 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/css/creative.css" type="text/css">
 <link rel="stylesheet" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/css/modals.css" type="text/css">
+
+<link rel="stylesheet" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/css/owl.carousel.css" type="text/css">
+<link rel="stylesheet" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/css/owl.theme.css" type="text/css">
+<link rel="stylesheet" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/css/photoswipe.css" type="text/css">
+<link rel="stylesheet" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/css/default-skin/default-skin.css" type="text/css">
+<link rel="stylesheet" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/css/gallery.css" type="text/css">
+
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,7 +47,7 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" id="bs-navbar-override">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -50,7 +59,7 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" id="bs-navbar-nav-override">
                 
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -62,6 +71,20 @@
                     </li>
                 
                 
+                
+                <li>
+                    <a class="page-scroll" href="#photos">Photos</a>
+                </li>
+                
+                
+                <li>
+                    <a class="page-scroll" href="#testimonials">Testimonials</a>
+                </li>
+                                
+                
+                <li>
+                    <a class="page-scroll" href="#location">Location</a>
+                </li>
                 
                 
                     <li>
@@ -80,8 +103,13 @@
         
             <!-- HEADER -->
 <header>
+
+    <img src="img/smallTree.svg" id="smallTreeHero">
+    <img src="img/mediumTree.svg" id="mediumTreeHero">
+
     <div class="header-content">
         <div class="header-content-inner">
+
             
                 <h1>Unlocking your child&rsquo;s full potential</h1>
             
@@ -91,21 +119,27 @@
             
                 <p>After-school and weekend tuition using a structured multi-sensory literacy programme for pupils aged five and over, who may be experiencing learing difficulties.</p>
             
+
             
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find out more</a>
             
         </div>
     </div>
+
+
 </header>
 
         
 
         
             <!-- ABOUT -->
-<section class="bg-primary" id="about">
-    <div class="container">
+<section class="bg-primary no-padding" id="about">
+    <div class="container-fluid">
+
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+        <div class="col-lg-3 col-sm-3 col-xs-3 vcenter" id="largeTreeAboutCol">
+            <img src="img/largeTree.svg" id="largeTreeAbout">
+        </div><div class="col-lg-8 col-sm-8 col-xs-9 text-center vcenter" id="aboutText">
                 
                     <h2 class="section-heading">I can help your child to reach their full potential at school!</h2>
                 
@@ -116,10 +150,11 @@
                     <p class="text-faded">My name is Daphne Blakey, I am a qualified specialist dyslexia teacher with over twenty years experience, currently working in a local primary school. I specialise in helping young children with learning and commication difficulties.</p>
                 
                 
-                    <a href="#" class="btn btn-default btn-xl">Get started!</a>
+                    <a href="#contact" class="btn btn-default btn-xl page-scroll">Contact details</a>
                 
             </div>
         </div>
+
     </div>
 </section>
 
@@ -127,8 +162,11 @@
 
         
             <!-- SERVICES -->
-<section id="services">
+<section id="services" class="no-padding" style="overflow: hidden; position: relative;">
+
+    <img src="img/rightLeaves.svg" id="rightLeaves">
     
+        <div class="servicesContent">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -138,8 +176,9 @@
             </div>
         </div>
     
-    <div class="container">
+    <div class="container" id="serviceList">
         <div class="row">
+
             
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
@@ -181,11 +220,565 @@
                 </div>
             </div>
             
+
+        </div>
+    </div>
+</div>
+</section>
+
+        
+
+        <section id="photos" class=" bg-dark">
+<div style="position: sticky; top:100px;">    
+        <img src="img/mediumTree.svg" id="mediumTreePhotos">
+        <img src="img/wordTreeLessLetters.svg" id="wordTreeLessLettersPhotos">
+
+</div>
+        
+        
+            
+        <p><p class="">
+A typical lesson will start with revision of newly learnt sounds, then consolidation by going over the sound cards they made.
+</p>
+
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+<div class="gallery caption-position-bottom caption-effect-none hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+
+<link rel="stylesheet" href="css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6822-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6822-comp.JPG" alt="more detailed description for letter mat that only shows in gallery"/>
+    </div>
+    <a href="img/photos/IMG_6822-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Early recognition of sounds</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6830-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6830-comp.JPG" alt="Formation of new sounds learnt using sand tray"/>
+    </div>
+    <a href="img/photos/IMG_6830-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Formation of new sounds learnt using sand tray</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6837-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6837-comp.JPG" alt="Tracing of sounds with coloured pens"/>
+    </div>
+    <a href="img/photos/IMG_6837-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Tracing of sounds with coloured pens</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6840-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6840-comp.JPG" alt="Tracing of sounds with coloured pens"/>
+    </div>
+    <a href="img/photos/IMG_6840-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Tracing of sounds with coloured pens</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6841-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6841-comp.JPG" alt="Making up c.v.c words using the letters"/>
+    </div>
+    <a href="img/photos/IMG_6841-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Making up c.v.c words using the letters</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6845-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6845-comp.JPG" alt="Making up c.v.c words using the letters"/>
+    </div>
+    <a href="img/photos/IMG_6845-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Making up c.v.c words using the letters</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6847-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6847-comp.JPG" alt="Making up c.v.c words using the letters"/>
+    </div>
+    <a href="img/photos/IMG_6847-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Making up c.v.c words using the letters</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6852-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6852-comp.JPG" alt="Reading a sentence and cutting up to remake a new sentence"/>
+    </div>
+    <a href="img/photos/IMG_6852-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Reading a sentence and cutting up to remake a new sentence</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6855-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6855-comp.JPG" alt="Writing out the new sentences"/>
+    </div>
+    <a href="img/photos/IMG_6855-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Writing out the new sentences</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6856-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6856-comp.JPG" alt="Writing out the new sentences"/>
+    </div>
+    <a href="img/photos/IMG_6856-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Writing out the new sentences</p>
+      </figcaption>
+  </figure>
+</div>
+		
+
+</div>
+</p>
+
+        
+
+        
+            
+        <p><p class="">
+Moving onto a more advanced stage of learning: the long vowel sounds.
+Using the story mountain board they set the scene with the objects, chose &lsquo;story word cars&rsquo; and go onto make thier own story book. The visual use of the story board gives structure to the story writing from opening build up to problem and finally onto resolution and ending.
+</p>
+
+
+
+<div class="gallery caption-position-bottom caption-effect-none hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+
+<link rel="stylesheet" href="css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6883-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6883-comp.JPG" alt="Sound cards"/>
+    </div>
+    <a href="img/photos/IMG_6883-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Sound cards</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6899-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6899-comp.JPG" alt="Objects"/>
+    </div>
+    <a href="img/photos/IMG_6899-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Objects</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6926-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6926-comp.JPG" alt="&#39;Story mountain&#39;"/>
+    </div>
+    <a href="img/photos/IMG_6926-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>&#39;Story mountain&#39;</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6931-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6931-comp.JPG" alt="Narating assembled story from the &#39;Story mountain&#39;"/>
+    </div>
+    <a href="img/photos/IMG_6931-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Narating assembled story from the &#39;Story mountain&#39;</p>
+      </figcaption>
+  </figure>
+</div>
+	
+
+
+</div>
+</p>
+
+        
+
+        
+            
+        <p><h4><b>Part of our lesson will consist of the development of perceptual skills. These are of prime importance for learning.</b>
+</h4>
+<p class="">
+Matching cubes- These cubes improve different skills such as visual memory and spatial reasoning, dexterity of thumb and finger and pattern matching on each card.
+</p>
+
+
+
+<div class="gallery caption-position-bottom caption-effect-none hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+
+<link rel="stylesheet" href="css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6935-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6935-comp.JPG" alt="Matching cubes"/>
+    </div>
+    <a href="img/photos/IMG_6935-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Matching cubes</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6937-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6937-comp.JPG" alt="Matching cubes"/>
+    </div>
+    <a href="img/photos/IMG_6937-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Matching cubes</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+</div>
+</p>
+
+<p class="">
+Another game of visual memory, the child looks at the picture for 5 seconds then it is hidden and they recreate the patten with coloured sticks from memory
+</p>
+
+
+
+
+<div class="gallery caption-position-bottom caption-effect-none hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/photos/IMG_6939-comp.JPG');">
+      <img itemprop="thumbnail" src="img/photos/IMG_6939-comp.JPG" alt="Visual memory exercise"/>
+    </div>
+    <a href="img/photos/IMG_6939-comp.JPG" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Visual memory exercise</p>
+      </figcaption>
+  </figure>
+</div>
+
+ 
+</div>
+
+
+        
+</section>
+        
+        
+
+        
+        
+        
+            <!-- HEADER -->
+
+
+
+<section id="testimonials" class="bar background-pentagon no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="">
+                <img src="img/leftLeavesFaded.svg" id="leftLeavesFaded">
+            </div>
+            <div class="">
+                <img src="img/rightLeavesFaded.svg" id="rightLeavesFaded">
+            </div>
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>Testimonials</h2>
+                </div>
+
+                <p class="lead">
+                  We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us.
+                </p>
+
+                
+
+                <ul class="owl-carousel testimonials same-height-row">
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>One morning, when Samsa woke, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/testimonials/1.jpg" >
+                                    <h5>Mel G</h5>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci a scelerisque purus semper eget.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/testimonials/2.jpg" >
+                                    <h5>Nick N</h5>
+                                    <p>test</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>One morning, when Samsa woke, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/testimonials/1.jpg" >
+                                    <h5>Mel G</h5>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>One morning, when Samsa woke, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/testimonials/2.jpg" >
+                                    <h5>Nick N</h5>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>One morning, when Samsa woke, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/testimonials/1.jpg" >
+                                    <h5>Mel G</h5>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>One morning, when Samsa woke, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/testimonials/2.jpg" >
+                                    <h5>Nick N</h5>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>One morning, when Samsa woke, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/testimonials/1.jpg" >
+                                    <h5>Mel G</h5>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>One morning, when Samsa woke, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/img/testimonials/2.jpg" >
+                                    <h5>Nick N</h5>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+                
+
+                
+            </div>
+
         </div>
     </div>
 </section>
 
-        
+
+
 
         
 
@@ -208,15 +801,13 @@
         
 
         
-
-        
             <!-- CONTACT -->
-<section id="contact">
+<section id="contact" class="no-margin no-padding">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 
-                    <h2 class="section-heading">Let&#39;s Get In Touch!</h2>
+                    <h2 class="section-heading">Contact details</h2>
                 
                 
                     <hr class="primary">
@@ -230,9 +821,21 @@
                 
                     col-lg-4
                 
-                col-lg-offset-2 text-center">
+                 text-center">
+                    <a href="tel:01935%20872365">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>01935 872365</p>
+                    <p>01935 872365</p></a>
+                </div>
+            
+            
+                <div class="
+                
+                    col-lg-4
+                
+                text-center">
+                    <a href="tel:07814%20712662">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>07814 712662</p></a>
                 </div>
             
             
@@ -241,19 +844,40 @@
                     col-lg-4
                 
                  text-center">
+                    <a href="mailto:daphneblakey@gmail.com">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:daphneblakey@gmail.com">daphneblakey@gmail.com</a></p>
+                    <p>daphneblakey@gmail.com</p></a>
                 </div>
             
         </div>
     </div>
 </section>
+        
+        
+        <!-- FORM -->
+<section class="bg-primary" id="form">
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerIadiMjD9pfepdiCN9kICJ-mqnzA9GXwCfR9h7epTSjRrvQ/viewform?embedded=true" width="640" height="1016" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</section>
 
         
 
         
+            <footer>
+  <div>
+    
+     	
+    <p>
+    This website uses cookies. By continuing to browse this site you are agreeing to our use of cookies. &copy; 2019 Oliver Blakey.
+</p>
 
-        <!-- jQuery -->
+    
+  </div>
+</footer>
+        
+
+
+        <!-- jQuery1 -->
 <script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/bootstrap.min.js"></script>
@@ -262,14 +886,33 @@
 <script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/jquery.fittext.js"></script>
 <script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/wow.min.js"></script>
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
 <script src="//maps.googleapis.com/maps/api/js?key=&v=3.exp"></script>
 <script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/hpneo.gmaps.js"></script>
 <script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/gmaps.init.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/creative.js"></script>
+var rootURL: &#39;https://oli-blakey.github.io/&#39;; var apiURL: &#39;%!s(MISSING)&#39;;
 
 
+
+<script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/creative.min.js"></script>
+<script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/front.js"></script>
+<script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/owl.carousel.min.js"></script>
+<script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/respond.min.js"></script>
+
+
+        
+
+
+
+
+        
         
     </body>
 </html>
