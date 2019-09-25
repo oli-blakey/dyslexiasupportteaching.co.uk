@@ -94,7 +94,7 @@ a:focus {
     color: #2c2c83;
 }
 
-/*about section 768*/
+/*About */
 @media(min-width:768px){
     #about {
         margin-bottom: 0;
@@ -138,9 +138,122 @@ a:focus {
     color: #2c2c83ff;
 }
 
-#aboutText{
+#aboutText {
 }
 
+/*Photos*/
+
+#photos {
+    margin-bottom: 0px;
+    overflow-x: hidden;
+}
+
+#photosStickyBackground{
+    position: sticky; 
+    top:100px; 
+
+}
+
+@media(min-width:992px) {
+#wordTreeLessLettersPhotos {
+
+    text-align: unset;
+
+    width:400px;
+position: absolute;
+right: 0;
+}
+
+#mediumTreePhotos {
+
+    text-align: unset;
+
+
+    position: absolute;
+    left: 0;
+}
+}
+
+@media(max-width:992px) {
+#wordTreeLessLettersPhotos {
+    text-align: unset;
+    width:400px;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+#mediumTreePhotos {
+    text-align: unset;
+    position: absolute;
+    left: 0;
+}
+}
+
+/*Testimonials*/
+
+#testimonials {
+    overflow: hidden;
+}
+
+@media(min-width:992px) {
+#leftLeavesFaded {
+    position: absolute;
+    left:0;
+}
+
+#rightLeavesFaded {
+    position: absolute;
+    right:0;
+}
+}
+
+
+#leftLeavesFaded {
+    position: absolute;
+    left:0;
+}
+@media(max-width:992px) {
+#rightLeavesFaded {
+    position: absolute;
+    right:0;
+    display: none;
+}
+}
+
+/*Fees*/
+
+#fees {
+    overflow: hidden;
+}
+
+
+
+@media(min-width:992px) {
+#leftLeavesFadedFees {
+    position: absolute;
+    left:0;
+}
+
+#rightLeavesFadedFees {
+    position: absolute;
+    right:0;
+}
+}
+
+
+#leftLeavesFadedFees {
+    position: absolute;
+    left:0;
+    display: none;
+}
+@media(max-width:992px) {
+#rightLeavesFadedFees {
+    position: absolute;
+    right:0;
+    display: none;
+}
+}
 
 h1,
 h2,
@@ -975,77 +1088,12 @@ body {
     background-color: #2c2c83ff;
 }
 
-#photos {
-    margin-bottom: 0px;
-}
-
-
-@media(min-width:992px) {
-#wordTreeLessLettersPhotos {
-
-    text-align: unset;
-
-    width:400px;
-position: absolute;
-right: 0;
-}
-
-#mediumTreePhotos {
-
-    text-align: unset;
-
-
-    position: absolute;
-    left: 0;
-}
-}
-
-@media(max-width:992px) {
-#wordTreeLessLettersPhotos {
-    text-align: unset;
-    width:400px;
-    position: absolute;
-    right: 0;
-    display: none;
-}
-
-#mediumTreePhotos {
-    text-align: unset;
-    position: absolute;
-    left: 0;
-}
-}
 
 
 
 .posRel{
     position: relative;
     z-index: 1;
-}
-
-@media(min-width:992px) {
-#leftLeavesFaded {
-    position: absolute;
-    left:0;
-}
-
-#rightLeavesFaded {
-    position: absolute;
-    right:0;
-}
-}
-
-
-#leftLeavesFaded {
-    position: absolute;
-    left:0;
-}
-@media(max-width:992px) {
-#rightLeavesFaded {
-    position: absolute;
-    right:0;
-    display: none;
-}
 }
 
 #contact{

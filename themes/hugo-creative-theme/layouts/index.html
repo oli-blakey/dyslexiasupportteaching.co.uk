@@ -34,6 +34,10 @@
             {{partial "testimonials.html" . }}
         {{ end }}
 
+        {{if .Site.Params.fees }}
+            {{partial "fees.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.location }}
             {{ partial "location.html" . }}
         {{ end }}
@@ -42,7 +46,7 @@
             {{ partial "contact.html" . }}
         {{ end }}
         
-        {{partial "form.html" .}}
+        {{/*partial "form.html" .*/}}
 
         {{ if .Site.Data.projects }}
             {{ partial "modals.html" . }}

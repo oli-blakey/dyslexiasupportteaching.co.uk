@@ -75,6 +75,13 @@ enableInlineShortcodes = true
     title = "Testimonials"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
+    # Fees
+    [params.fees]
+    enable = true
+    title = "Failure to give each individual a chance to shine and fulfil their true potential is one of the greatest tragedies of our time."
+	fees = "1hr £xx"
+	cancellationPolicy = "48 hours notice required otherwise %50 charge applied"
+
 	# Service section
 	[params.services]
 		headline = "At your service"

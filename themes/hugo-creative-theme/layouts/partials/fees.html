@@ -1,0 +1,27 @@
+{{ "<!-- FEES -->" | safeHTML }}
+<section id="fees">
+    <div class="container">
+        <div class="row">
+            <div>
+            <img src="img/rightLeavesFaded.svg" id="rightLeavesFadedFees">
+            </div>
+            <div>
+            <img src="img/leftLeavesFaded.svg" id="leftLeavesFadedFees">
+            </div>
+            <div class="col-md-12 text-center" id="feesText">
+                {{ with .Site.Params.fees.title }}
+                    <h2 class="section-heading">{{ . }}</h2>
+                {{ end }}
+                {{ if and .Site.Params.fees.title .Site.Params.fees.fees }}
+                    <hr class="light">
+                {{ end }}
+                {{ with .Site.Params.fees.fees }}
+                    <p class="text-faded">{{ . | markdownify }}</p>
+                {{ end }}
+                {{ with .Site.Params.fees.cancellationPolicy }}
+                    <p class="text-faded">{{ . | markdownify }}</p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
