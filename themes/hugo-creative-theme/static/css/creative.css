@@ -233,6 +233,7 @@ right: 0;
 #leftLeavesFadedFees {
     position: absolute;
     left:0;
+    display: none;
 }
 
 #rightLeavesFadedFees {
