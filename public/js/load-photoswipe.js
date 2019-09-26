@@ -19,7 +19,6 @@ $( document ).ready(function() {
 	$('.gallery').each( function(){
 		var items = [];	
 		$(this).find('figure').each( function() {
-			console.log(this);
 			if ($(this).attr('class') == 'no-photoswipe') return true; // ignore any figures where class="no-photoswipe"
 			// get properties from child a/img/figcaption elements,
 			var $figure = $(this),
@@ -38,7 +37,6 @@ $( document ).ready(function() {
 					title 	: $title,
 					msrc	: $msrc
 				};
-				console.log("Using pre-defined dimensions for " + $src);
 			// if not, set temp default size then load the image to check actual size
 			} else {
 				var item = {
@@ -48,7 +46,6 @@ $( document ).ready(function() {
 					title 	: $title,
 					msrc	: $msrc
 				};
-				console.log("Using default dimensions for " + $src);
 				// load the image to check its dimensions
 				// update the item as soon as w and h are known (check every 30ms)
 				var img = new Image(); 
@@ -60,7 +57,6 @@ $( document ).ready(function() {
 						clearInterval(wait);
 						item.w = w;
 						item.h = h;
-						console.log("Got actual dimensions for " + img.src);
 					}
 				}, 30);
 		   	}

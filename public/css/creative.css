@@ -60,7 +60,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #ffec00;
+    border-color: #2c2c83ff;
     border-width: 3px;
 }
 
@@ -83,7 +83,7 @@ hr.light {
 }
 
 a {
-    color: #ffec00;
+    color: #2c2c83ff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -1105,7 +1105,15 @@ body {
     position: relative;
     z-index: 1;
 }
+/*Location map*/
+#location {
+    margin-bottom: 0px;
+}
+
+/*contact*/
 
 #contact{
-
+    background-color: #ffec00;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
