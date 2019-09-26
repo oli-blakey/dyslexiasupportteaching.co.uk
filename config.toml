@@ -132,8 +132,9 @@ enableInlineShortcodes = true
 
 	# Google Maps section
 	 [params.location]
-	 	latitude  = "50.895758"
-	 	longitude = "-2.598111"
+
+	 	latitude  = "50.8955465"
+	 	longitude = "-2.5980245"
 	# 	maps_api_key = ""
 
 	#Footer
