@@ -60,7 +60,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #ffec00;
+    border-color: #2c2c83ff;
     border-width: 3px;
 }
 
@@ -83,7 +83,7 @@ hr.light {
 }
 
 a {
-    color: #ffec00;
+    color: #2c2c83ff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -145,12 +145,12 @@ a:focus {
 
 #photos {
     margin-bottom: 0px;
-    overflow-x: hidden;
 }
 
 #photosStickyBackground{
+    position: -webkit-sticky;
     position: sticky; 
-    top:100px; 
+    top:100px;
 
 }
 
@@ -176,15 +176,12 @@ right: 0;
 
 @media(max-width:992px) {
 #wordTreeLessLettersPhotos {
-    text-align: unset;
-    width:400px;
-    position: absolute;
-    right: 0;
     display: none;
 }
 
 #mediumTreePhotos {
     text-align: unset;
+    width: -webkit-fill-available;
     position: absolute;
     left: 0;
 }
@@ -1105,7 +1102,15 @@ body {
     position: relative;
     z-index: 1;
 }
+/*Location map*/
+#location {
+    margin-bottom: 0px;
+}
+
+/*contact*/
 
 #contact{
-
+    background-color: #ffec00;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }

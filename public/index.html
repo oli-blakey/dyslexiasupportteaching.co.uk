@@ -32,6 +32,13 @@
 <link rel="stylesheet" href="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/css/gallery.css" type="text/css">
 
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+  integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+  crossorigin=""></script>
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -816,15 +823,11 @@ Another game of visual memory, the child looks at the picture for 5 seconds then
         
             <!-- LOCATION -->
 
-<section id="location" class="no-padding">
-    <div class="hidden">
-        <input id="gmap-lat" value="50.895758" />
-        <input id="gmap-lng" value="-2.598111" />
-    </div>
-    <a href="https://www.google.com/maps?z=16&q=50.895758,-2.598111&ll=50.895758,-2.598111">
-        <div id="map">
-            &nbsp;
-        </div>
+<section id="location" class="no-padding" >
+	
+    <a href="https://www.google.com/maps?z=16&q=50.8955465,-2.5980245&ll=50.8955465,-2.5980245" target="_blank">
+    	<div id="mapLeaf" style="height: 400px">
+		</div>	
     </a>
 </section>
 
@@ -919,12 +922,18 @@ Another game of visual memory, the child looks at the picture for 5 seconds then
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
 
 
+
 <script src="//maps.googleapis.com/maps/api/js?key=&v=3.exp"></script>
 <script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/hpneo.gmaps.js"></script>
 <script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/gmaps.init.js"></script>
 
+<script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js?v1.3.0"></script>
+//stamen-tiles-{s}.a.ssl.fastly.net/js/tile.stamen.js
+<script src="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/js/leafMaps.js"></script>
+
+
 <!-- Custom Theme JavaScript -->
-var rootURL: &#39;https://oli-blakey.github.io/&#39;; var apiURL: &#39;%!s(MISSING)&#39;;
+
 
 
 
