@@ -1,4 +1,7 @@
 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
 <script src="{{ "js/bootstrap.min.js" | absURL }}"></script>
 {{ "<!-- Plugin JavaScript -->" | safeHTML }}
@@ -23,6 +26,7 @@
 {{ $creativeJSmin := $creativeJS | resources.Minify}}
 <script src="{{ $creativeJSmin.Permalink }}"></script>
 <script src="{{ .Site.BaseURL }}js/front.js"></script>
+<script src="js/load-photoswipe.js"></script>
 <script async src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
 <script async src="{{ .Site.BaseURL }}js/respond.min.js"></script>
 
