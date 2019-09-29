@@ -1,26 +1,20 @@
-{{ "<!-- jQuery1 -->" | safeHTML }}
-<script src="{{ "js/jquery.js" | absURL }}"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
 <script src="{{ "js/bootstrap.min.js" | absURL }}"></script>
 {{ "<!-- Plugin JavaScript -->" | safeHTML }}
 <script src="{{ "js/jquery.easing.min.js" | absURL }}"></script>
 <script src="{{ "js/jquery.fittext.js" | absURL }}"></script>
 <script src="{{ "js/wow.min.js" | absURL }}"></script>
-
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
-
 {{ if .Site.Params.location }}
-<!-- todo remove gmaps code 
-<script src="//maps.googleapis.com/maps/api/js?key={{ .Site.Params.location.maps_api_key }}&v=3.exp"></script>
-<script src="{{ "js/hpneo.gmaps.js" | absURL }}"></script>
-<script src="{{ "js/gmaps.init.js" | absURL }}"></script>
--->
-<script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js?v1.3.0"></script>
-<script src="{{ "js/leafMaps.js" | absURL }}"></script>
-
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+  integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+  crossorigin="" ></script>
+<script async type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js?v1.3.0"></script>
+<script async src="{{ "js/leafMaps.js" | absURL }}"></script>
 {{ end }}
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 {{/*printf "var rootURL: '%s'; var apiURL: '%s';" (absURL "/") */}}
@@ -29,8 +23,9 @@
 {{ $creativeJSmin := $creativeJS | resources.Minify}}
 <script src="{{ $creativeJSmin.Permalink }}"></script>
 <script src="{{ .Site.BaseURL }}js/front.js"></script>
-<script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/respond.min.js"></script>
+<script async src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
+<script async src="{{ .Site.BaseURL }}js/respond.min.js"></script>
+<script src="js/load-photoswipe.js"></script>
 <!--
 <script src="{{ .Site.BaseURL }}js/photoswipe.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/photoswipe-ui-default.min.js"></script>

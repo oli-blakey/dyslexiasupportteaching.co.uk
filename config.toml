@@ -49,13 +49,13 @@ enableInlineShortcodes = true
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Unlocking your child's full potential"
-		subtitle   = "After-school and weekend tuition using a structured multi-sensory literacy programme for pupils aged five and over, who may be experiencing learing difficulties."
+		subtitle   = "After-school and weekend tuition using a structured multi-sensory literacy programme for pupils aged five and over, who may be experiencing some learing difficulties."
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
-		headline    = "I can help your child to reach their full potential at school!"
+		headline    = "I can help your child to reach their full potential at school"
 		description = "My name is Daphne Blakey, I am a qualified specialist dyslexia teacher with over twenty years experience, currently working in a local primary school. I specialise in helping young children with learning and commication difficulties."
 		buttonText  = "Contact details"
 

@@ -6,11 +6,11 @@ draft: false
 
 
 <p class="">
-A typical lesson will start with revision of newly learnt sounds, then consolidation by going over the sound cards they made.
+A typical lesson will start with revision of newly learnt sounds, then consolidation by going over the sound cards they have made.
 </p>
 {{< load-photoswipe >}}
 {{< gallery hover-effect="zoom" caption-postion="slide" id="gallery2" caption-effect="none">}}
-{{<figure link="img/photos/IMG_6822-comp.JPG" caption="Early recognition of sounds" alt="more detailed description for letter mat that only shows in gallery">}}
+{{<figure link="img/photos/IMG_6822.JPG" caption="Early recognition of sounds" alt="more detailed description for letter mat that only shows in gallery" thumb="-thumb">}}
 {{<figure link="img/photos/IMG_6830-comp.JPG" caption="Formation of new sounds learnt using sand tray" >}}
 {{<figure link="img/photos/IMG_6837-comp.JPG" caption="Tracing of sounds with coloured pens" >}}
 {{<figure link="img/photos/IMG_6840-comp.JPG" caption="Tracing of sounds with coloured pens" >}}
