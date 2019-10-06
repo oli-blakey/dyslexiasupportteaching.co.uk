@@ -42,40 +42,6 @@ function contactFormAjax () {
   })
 }
 
-/* for demo purpose only - can be deleted */
-function demo () {
-  if ($.cookie('themeCSSpath')) {
-    $('link#theme-stylesheet').attr('href', $.cookie('themeCSSpath'))
-  }
-
-  $('#colour').change(function () {
-    if ($(this).val() !== '') {
-      var themeCSSpath = 'css/style.' + $(this).val() + '.css'
-
-      $('link#theme-stylesheet').attr('href', themeCSSpath)
-
-      $.cookie('themeCSSpath', themeCSSpath, {expires: 365, path: '/'})
-    }
-
-    return false
-  })
-
-  $('#layout').change(function () {
-    if ($(this).val() !== '') {
-      var themeLayout = $(this).val()
-
-      $('body').removeClass('wide')
-      $('body').removeClass('boxed')
-
-      $('body').addClass(themeLayout)
-
-      $.cookie('themeLayout', themeLayout, {expires: 365, path: '/'})
-    }
-
-    return false
-  })
-}
-
 /* slider homepage */
 function sliderHomepage () {
   if ($('#slider').length) {
@@ -100,10 +66,10 @@ function sliders () {
       itemsTablet: [768, 2],
       itemsMobile: [480, 1]
     })
-
+    //currently used
     $('.testimonials').owlCarousel({
-      items: 4,
-      itemsDesktopSmall: [990, 3],
+      items: 2,
+      itemsDesktopSmall: [990, 2],
       itemsTablet: [768, 2],
       itemsMobile: [480, 1]
     })

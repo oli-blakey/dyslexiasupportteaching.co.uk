@@ -277,8 +277,16 @@ h6 {
     z-index: 2;
 }
 
-p {
+p
+ {
     margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 2;
+    position: relative;
+}
+
+#spanP{
     font-size: 16px;
     line-height: 1.5;
     z-index: 2;
@@ -1110,3 +1118,34 @@ body {
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
+[aria-expanded="false"]  .expanded,
+[aria-expanded="true"]  .collapsed {
+  display: none;
+}
+
+[aria-expanded="true"] #aboutShowMore {
+  display:inline-block;
+}
+
+[aria-expanded="false"] 
+.aboutShowMoreChevron{    
+    -webkit-animation:spinBack 0.5s linear 0s 1 normal forwards ;
+    -moz-animation:spinBack 0.5s linear 0s 1 normal forwards;
+    animation:spinBack 0.5s linear 0s 1 normal forwards;
+}
+
+[aria-expanded="true"] 
+.aboutShowMoreChevron{    
+    -webkit-animation:spin 0.5s linear 0s 1 normal forwards ;
+    -moz-animation:spin 0.5s linear 0s 1 normal forwards;
+    animation:spin 0.5s linear 0s 1 normal forwards;
+}
+@-moz-keyframes spin { from{ -moz-transform: rotate(0deg); } to{-moz-transform: rotate(-180deg);} }
+@-webkit-keyframes spin { from{ -webkit-transform: rotate(0deg); } to {-webkit-transform: rotate(-180deg);} }
+@keyframes spin { from { -webkit-transform: rotate(0deg); transform:rotate(0deg); } to{-webkit-transform: rotate(-180deg); transform:rotate(-180deg);}}
+
+@-moz-keyframes spinBack { from{ -moz-transform: rotate(-180deg); } to{-moz-transform: rotate(0deg);} }
+@-webkit-keyframes spinBack { from{ -webkit-transform: rotate(-180deg); } to {-webkit-transform: rotate(0deg);} }
+@keyframes spinBack { from { -webkit-transform: rotate(-180deg); transform:rotate(-180deg); } to{-webkit-transform: rotate(0deg); transform:rotate(0deg);}}
+
