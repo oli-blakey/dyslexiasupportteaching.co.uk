@@ -27,7 +27,7 @@
                     <li class="item">
                         <div class="testimonial same-height-always">
                             <div class="text">
-                                <p>{{ .text | markdownify }}</p>
+                                <p>{{ substr .text 0 300 | markdownify }}</p>
                             </div>
                             <div class="bottom">
                                 <div class="icon"><i class="fa fa-quote-left"></i>

@@ -14,11 +14,29 @@
                     <hr class="light">
                 {{ end }}
                 {{ with .Site.Params.about.description }}
-                    <p class="text-faded">{{ . | markdownify }}</p>
+                    <span class="text-faded" style="display:inline-block;" id="spanP">{{ . | markdownify }}</span>
                 {{ end }}
+                {{ with .Site.Params.about.descriptionShowMore }}
+                    <p class="text-faded collapse" data-toggle="collapse" id="aboutShowMore">{{ . | markdownify }}</p>
+                {{ end }}
+                <a data-target="#aboutShowMore"
+                    class="btn"
+                    data-toggle="collapse"
+                    aria-expanded="false"
+                    aria-controls="aboutShowMore"
+                     >
+
+                <span class="text-faded collapsed">Show More </span>
+                <span class="text-faded expanded">Show less </span>
+                <span style="display:inline-block;" class="aboutShowMoreChevron">▼</span>
+            
+            </a>
+            <p>
+            <div>
                 {{ with .Site.Params.about.buttonText }}
                     <a href="#contact" class="btn btn-default btn-xl page-scroll">{{ . }}</a>
                 {{ end }}
+            </div>
             </div>
         </div>
 
