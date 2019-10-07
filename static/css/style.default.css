@@ -1257,7 +1257,7 @@ fieldset[disabled] .btn-template-primary.active {
   list-style-type: none;
   margin: 0 5px;
   background: #fff;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1284,7 +1284,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .testimonials .item .testimonial .text {
   color: #999999;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 .testimonials .item .testimonial .bottom {
   position: absolute;
@@ -1307,6 +1307,7 @@ fieldset[disabled] .btn-template-primary.active {
   float: right;
   width: 80%;
   text-align: right;
+  margin-top: 20px;
 }
 .testimonials .item .testimonial .name-picture h5 {
   font-size: 14px;

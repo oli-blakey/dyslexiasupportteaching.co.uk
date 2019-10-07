@@ -25,10 +25,27 @@
                 <ul class="owl-carousel testimonials same-height-row">
                     {{ range .Site.Data.features.testimonials }}
                     <li class="item">
-                        <div class="testimonial same-height-always">
+                        <div class="testimonial">
                             <div class="text">
-                                <p>{{ substr .text 0 300 | markdownify }}</p>
+                                <p class="testimonialsMainText">{{ .text | markdownify }}</p>
                             </div>
+                            {{if .textMore}}
+                            <div class="text">
+                                <p class="collapse" data-toggle="collapse" id="testimonialsShowMore">{{.textMore | markdownify }}</p>
+                            </div>
+                            <a  data-target="#testimonialsShowMore"
+                                class="btn"
+                                data-toggle="collapse"
+                                aria-expanded="false"
+                                aria-controls="testimonialsShowMore"
+                                style="z-index: 1; position: relative;"
+                            >
+
+                                <span class="text-faded collapsed">Show More </span>
+                                <span class="text-faded expanded">Show less </span>
+                                <span style="display:inline-block;" class="testimonialsShowMoreChevron">▼</span>
+                            </a>
+                            {{end}}
                             <div class="bottom">
                                 <div class="icon"><i class="fa fa-quote-left"></i>
                                 </div>
