@@ -7,12 +7,13 @@ draft: false
 
 <p class="">
 Moving onto a more advanced stage of learning: the long vowel sounds.
-Using the story mountain board they set the scene with the objects, chose 'story word cards' and go onto make thier own story book. The visual use of the story board gives structure to the story writing from opening build up to problem and finally onto resolution and ending.
+Using the story mountain board they set the scene with the objects, chose 'story word cards' and go onto make thier own story book. The visual use of the story board gives structure to the story writing, from the opening, building up to the problem and finally onto the resolution and ending.
 </p>
 {{< gallery hover-effect="zoom" caption-postion="slide" id="gallery2" caption-effect="none">}}
 {{<figure link="img/photos/IMG_6883-comp.JPG" caption="Sound cards" thumb="-thumb">}}
-{{<figure link="img/photos/IMG_6899-comp.JPG" caption="Objects" thumb="-thumb">}}
+{{<figure link="img/photos/IMG_6899-comp.JPG" caption="Objects for a particular sound" thumb="-thumb">}}	
 {{<figure link="img/photos/IMG_6926-comp.JPG" caption="'Story mountain' board" thumb="-thumb">}}
-{{<figure link="img/photos/IMG_6931-comp.JPG" caption="Narrating assembled story from the 'Story mountain'" thumb="-thumb">}}	
-
+{{<figure link="img/photos/IMG_6931-comp.JPG" caption="Narrating assembled story from the 'Story mountain'" thumb="-thumb">}}
+{{<figure link="img/photos/IMG_6910-comp.JPG" caption="Writing their own story book" thumb="-thumb">}}
+{{<figure link="img/photos/Image-comp.JPG" caption="Another exercise for sequencing a story" thumb="-thumb">}}
 {{< /gallery >}}

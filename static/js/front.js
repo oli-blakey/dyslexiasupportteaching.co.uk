@@ -48,9 +48,10 @@ function sliderHomepage () {
 
     $('#slider').owlCarousel({
       autoPlay: 3000,
-      items: 4,
-      itemsDesktopSmall: [900, 3],
-      itemsTablet: [600, 3],
+      items: 2,
+      itemsDesktop : [1199,2],
+      itemsDesktopSmall: [900, 2],
+      itemsTablet: [600, 2],
       itemsMobile: [500, 2]
     })
   }
@@ -60,16 +61,17 @@ function sliderHomepage () {
 function sliders () {
   if ($('.owl-carousel').length) {
     $('.customers').owlCarousel({
-      items: 6,
-      itemsDesktopSmall: [990, 4],
+      items: 2,
+      itemsDesktopSmall: [990, 2],
       itemsTablet: [768, 2],
       itemsMobile: [480, 1]
     })
     //currently used
     $('.testimonials').owlCarousel({
       items: 2,
+      itemsDesktop : [1199,2],
       itemsDesktopSmall: [990, 2],
-      itemsTablet: [768, 2],
+      itemsTablet: [768, 1],
       itemsMobile: [480, 1]
     })
 
