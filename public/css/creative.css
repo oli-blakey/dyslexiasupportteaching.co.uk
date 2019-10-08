@@ -150,18 +150,17 @@ a:focus {
 #photosStickyBackground{
     position: -webkit-sticky;
     position: sticky; 
-    top:100px;
+    top:50px;
+    margin-bottom: 200px;
 
 }
 
 @media(min-width:992px) {
 #wordTreeLessLettersPhotos {
-
-    text-align: unset;
-
-    width:400px;
-position: absolute;
-right: 0;
+  text-align: unset;
+  width:400px;
+  position: absolute;
+  right: 0;
 }
 
 #mediumTreePhotos {
@@ -189,6 +188,10 @@ right: 0;
 
 .box {
     background: none;
+}
+
+#photos1stP {
+  margin-top: -200px;
 }
 
 /*Testimonials*/
