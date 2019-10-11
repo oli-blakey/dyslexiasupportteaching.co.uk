@@ -1311,7 +1311,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .testimonials .item .testimonial .name-picture h5 {
   font-size: 14px;
-  text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 .testimonials .item .testimonial .name-picture p {
