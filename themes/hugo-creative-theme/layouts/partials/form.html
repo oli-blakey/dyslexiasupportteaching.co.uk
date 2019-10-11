@@ -1,5 +1,58 @@
 {{ "<!-- FORM -->" | safeHTML }}
-<section class="bg-primary" id="form">
+<section id="form" class="bg-primary " >
+	<div class="container">
+	<h2 class="section-heading text-center"> Contact form</h2>
+	<form  action="https://formsubmit.io/send/oli.blakey@gmail.com" class=" bg-primary col-lg-8 col-lg-offset-2" method="POST">
+	<!-- trips sapm filter if active on local host -->
+	<input name="_redirect" type="hidden" id="name" value="https://oli-blakey.github.io/dyslexiasupportteaching.co.uk/#thanksModal">
+	  	<div class="form-group">
+		    <label for="inputName" class="contactLabel">Name*</label>
+		    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Name" name="Name" required>
+		    <small id="nameHelp" class="form-text text-muted">We'll never share your Name with anyone else.</small>
+	  	</div>
+	  	<div class="form-group">
+		    <label for="inputEmail1" class="contactLabel">Email address*</label>
+		    <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="_replyto" required>
+		    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+	  	</div>
+		<div class="form-group">
+		    <label for="inputNumber" class="contactLabel">Phone number</label>
+		    <input type="tel" class="form-control" id="inputNumber" aria-describedby="numberHelp" placeholder="Enter phone number" name="Phone Number">
+		    <small id="numberHelp" class="form-text text-muted">(Optional) Please indicated your preferred contact method</small>
+  		</div>
+	  	<div class="form-group">
+		    <label for="inputText" class="contactLabel">About your childs needs</label>
+		    <textarea type="textarea" class="form-control" id="inputText" placeholder="Enter text" name="About childs needs" rows="5"></textarea>
+			<small id="numberHelp" class="form-text text-muted">(Optional) About your childs needs</small>
+		</div>
+		<p>	Please select your preferred contact method: </p>
+		<div class="btn-group preferredContact" data-toggle="buttons" >
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerIadiMjD9pfepdiCN9kICJ-mqnzA9GXwCfR9h7epTSjRrvQ/viewform?embedded=true" width="640" height="1016" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		  <label class="btn btn-primary active" id="emailRadioLabel">
+		    <input type="radio" name="preferredContact" autocomplete="off" value="Email preferred"checked > Email preferred
+		  </label>
+		  <label class="btn btn-primary" id="phoneRadioLabel">
+		    <input type="radio" name="preferredContact" autocomplete="off" value="Phone preferred"> Phone preferred
+		  </label>
+		</div>
+		<!-- <div class="form-check">
+		  <input class="form-check-input" type="radio" name="preferedContact" id="emailRadio" value="emailPreferred" checked>
+		  <label class="form-check-label" for="emailRadio">
+		    Email
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="radio" name="preferedContact" id="phoneRadio" value="phonePreferred">
+		  <label class="form-check-label" for="phoneRadio">
+		    Phone
+		  </label>
+		</div> -->
+	<input name="_formsubmit_id" type="text" style="display:none">
+	<div>	
+	  <button type="submit" value="send" class="btn btn-default btn-xl">Submit</button>
+	</div>
+	</form>
+</div>
 </section>
+
+

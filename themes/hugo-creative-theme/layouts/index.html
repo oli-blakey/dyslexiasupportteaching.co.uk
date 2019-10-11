@@ -46,7 +46,7 @@
             {{ partial "contact.html" . }}
         {{ end }}
         
-        {{/*partial "form.html" .*/}}
+        {{partial "form.html" .}}
 
         {{ if .Site.Data.projects }}
             {{ partial "modals.html" . }}
@@ -55,6 +55,8 @@
         {{ if .Site.Params.footer }}
             {{ partial "footer.html" . }}
         {{ end }}
+
+        {{ partial "thanksModal.html" . }}
 
 
         {{ partial "js.html" . }}
