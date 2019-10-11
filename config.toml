@@ -50,7 +50,7 @@ enableInlineShortcodes = true
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Unlocking your child's full potential"
 		subtitle   = "After-school and weekend tuition using a structured multi-sensory literacy programme for pupils aged five and over, who may be experiencing some learing difficulties."
-		buttonText = "Find out more"
+		buttonText = "Contact me"
 
 
 	# About section
@@ -80,8 +80,8 @@ enableInlineShortcodes = true
     # Fees
     [params.fees]
     enable = true
-    title = "Failure to give each individual a chance to shine and fulfil their true potential is one of the greatest tragedies of our time."
-	fees = "1hr £xx"
+    title = "Fees."
+	fees = "1hr £xx, Traveling costs 45p per a mile"
 	cancellationPolicy = "48 hours notice required otherwise %50 charge applied"
 
 	# Service section
