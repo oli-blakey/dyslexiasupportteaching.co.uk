@@ -56,9 +56,9 @@ enableInlineShortcodes = true
 	# About section
 	[params.about]
 		headline    = "I can help your child to reach their full potential at school"
-		description = "I offer individual tuition for children from the age of 5 to help them overcome the challenges to learning and communication arising from dyslexia, Asperger, dyspraxia and a wide variety of other complex difficulties.</br> Based on over 20 years experience, my approach is to develop a personalised learning schedule for every learner which is tailored to their needs, and which is adapted in response to their progress. My aim is to work alongside families and school so that, together, we can establish the solid building blocks that will allow the learner to achieve in their learning and reach their full potential."
-		descriptionShowMore ="I believe that perceptual skills are the key to learning. I focus on developing these skills. A typical teaching strategy will begin with recognising the basic sound structure of words. We will then progress to sentence construction, building grammatical awareness, often making up ‘silly sentences’ from random words but in a set grammatical pattern. I make time to talk and have fun, hence building confidence, and don’t move on until the learning associated with any one area is fully consolidated.</br> I have an excellent range of specialist teaching resources and equipment, many of which are multi-sensory to help enhance concentration, interest, enjoyment and memory skills.</br> Having first trained as a Montessori teacher, I then studied with the Hornsby International Dyslexia Centre and hold a number of teaching and assessment qualifications from Dyslexia Action. My most recent training has being the study of ‘Structured, Cumulative Multisensory Tuition for Learners with Dyslexia’. I work in a primary school where I have attended many county based training sessions."
-		descriptionOld = "My name is Daphne Blakey, I am a qualified specialist dyslexia teacher with over twenty years experience, currently working in a local primary school. I specialise in helping young children with learning and commication difficulties."
+		description = "I offer individual tuition for children from the age of 5 to help them overcome the challenges to learning and communication arising from dyslexia, Aspergers, dyspraxia and a wide variety of other complex difficulties.</br> Based on over 20 years of experience, my approach is to develop a personalised learning schedule for every learner which is tailored to their needs, and which is adapted in response to their progress. My aim is to work alongside families and school so that, together, we can establish the solid building blocks that will allow the learner to achieve in their learning and reach their full potential."
+		descriptionShowMore ="I believe that perceptual skills are key to learning. I focus on developing these skills. A typical teaching strategy will begin with recognising the basic sound structure of words. We will then progress to sentence construction, building grammatical awareness, often making up ‘silly sentences’ from random words but in a set grammatical pattern. I make time to talk and have fun, thereby building confidence, and don’t move on until the learning associated with any one area is fully consolidated.</br> I have an excellent range of specialist teaching resources and equipment, many of which are multi-sensory to help enhance concentration, interest, enjoyment and memory skills.</br> Having first trained as a Montessori teacher, I then studied with the Hornsby International Dyslexia Centre and hold a number of teaching and assessment qualifications from Dyslexia Action. My most recent training has being the study of ‘Structured, Cumulative Multisensory Tuition for Learners with Dyslexia’. I work in a primary school where I have attended many county based training sessions."
+		descriptionOld = "My name is Daphne Blakey, I am a qualified specialist dyslexia teacher with over twenty years of experience, currently working in a local primary school. I specialise in helping young children with learning and commication difficulties."
 		buttonText  = "Contact details"
 
 	# Gallery
@@ -86,7 +86,7 @@ enableInlineShortcodes = true
 
 	# Service section
 	[params.services]
-		headline = "Services Offered"
+		headline = "Services tailored to your child."
 
         [[params.services.list]]
             icon = "fa-university"
@@ -105,8 +105,8 @@ enableInlineShortcodes = true
 
         [[params.services.list]]
             icon = "fa-graduation-cap"
-            title = "Asperger syndrome"
-            description = "Individual plans tailed for Asperger syndrome"
+            title = "Aspergers syndrome"
+            description = "Individual plans tailed for Aspergers syndrome"
 
 
     # Portfolio modals

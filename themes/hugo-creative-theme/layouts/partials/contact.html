@@ -7,7 +7,7 @@
                     <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
                 {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
-                    <hr class="primary">
+                    <hr class="primary light">
                 {{ end }}
                 {{ with .Site.Params.contact.description }}
                     <p>{{ . | markdownify }}</p>
