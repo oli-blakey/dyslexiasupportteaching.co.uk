@@ -80,31 +80,31 @@ enableInlineShortcodes = true
     # Fees
     [params.fees]
     enable = true
-    title = "Fees."
-	fees = "1hr £xx, Traveling costs 45p per a mile"
-	cancellationPolicy = "48 hours notice required otherwise %50 charge applied"
+    title = "Fees"
+	fees = "1hr £24, Traveling costs 45p per a mile"
+	cancellationPolicy = "24 hours notice required, otherwise a 50% charge  will be applied"
 
 	# Service section
 	[params.services]
-		headline = "At your service"
+		headline = "Services Offered"
 
         [[params.services.list]]
-            icon = "fa-diamond"
+            icon = "fa-university"
             title = "After-school Tuition"
             description = "I offer after-school and weekend tuition."
 
         [[params.services.list]]
 			icon = "fa-paper-plane"
 			title = "Dyslexia"
-			description = "You can use this theme as is, or you can make changes!"
+			description = "Specialised Dyslexia teaching"
 
 		[[params.services.list]]
-            icon = "fa-newspaper-o"
+            icon = "fa-book"
             title = "Dyspraxia"
             description = "Specialised Dyspraxia teaching"
 
         [[params.services.list]]
-            icon = "fa-heart"
+            icon = "fa-graduation-cap"
             title = "Asperger syndrome"
             description = "Individual plans tailed for Asperger syndrome"
 
@@ -141,6 +141,6 @@ enableInlineShortcodes = true
 
 	#Footer
 	[params.footer]
-		footerText = "This website uses cookies. By continuing to browse this site you are agreeing to our use of cookies."
+		footerText = "This website uses cookies. By continuing to browse this site you are agreeing to our use of cookies.Free hosting provided by GitHub Pages"
 
 
