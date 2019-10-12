@@ -60,7 +60,6 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #2c2c83ff;
     border-width: 3px;
 }
 
@@ -168,8 +167,19 @@ a:focus {
 
 #photos {
     margin-bottom: 0px;
+    padding: 20px 0;
 }
 
+#photos h2{
+  padding-bottom: 4rem;
+}
+#photos p {
+  margin-bottom: 20px;
+}
+
+#photos figcaption p{
+  margin-bottom: 0;
+}
 #photosStickyBackground{
     position: -webkit-sticky;
     position: sticky; 
@@ -293,9 +303,14 @@ a:focus {
 }
 
 /*Contact form*/
+#form h2 {
+  color: rgb(85, 85, 85);
+}
+
 #form{
   color: rgba(44,44,131,1);
   padding: 20px 30px;
+  margin-bottom: 0;
 }
 
 @media(max-width: 456px){
@@ -329,6 +344,13 @@ a:focus {
 #emailRadioLabel.active, #emailRadioLabel:hover, #phoneRadioLabel.active, #phoneRadioLabel:hover{
   color: #ffffff;
   background-color: #2c2c83;
+}
+
+/*footer*/
+
+footer p{
+
+  margin-top: 20px;
 }
 
 
