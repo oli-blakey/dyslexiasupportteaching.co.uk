@@ -94,6 +94,12 @@ a:focus {
 }
 
 /*Nav*/
+#mainNav{
+  -webkit-transform:translateZ(4px);
+  -moz-transform:translateZ(4px);
+  -o-transform:translateZ(4px);
+  transform:translateZ(4px);
+}
 
 
 
@@ -188,10 +194,10 @@ a:focus {
 
 #photos figcaption p{
   margin-bottom: 0;
-  -webkit-transform:translateZ(10px);
-  -moz-transform:translateZ(10px);
-  -o-transform:translateZ(10px);
-  transform:translateZ(10px);
+  -webkit-transform:translateZ(3px);
+  -moz-transform:translateZ(3px);
+  -o-transform:translateZ(3px);
+  transform:translateZ(3px);
 }
 
 #photos figure {
@@ -205,10 +211,10 @@ a:focus {
     position: sticky; 
     top:50px;
     margin-bottom: 200px;
-    -webkit-transform:translateZ(1px);
-    -moz-transform:translateZ(1px);
-    -o-transform:translateZ(1px);
-    transform:translateZ(1px);
+    -webkit-transform:translateZ(0px);
+    -moz-transform:translateZ(0px);
+    -o-transform:translateZ(0px);
+    transform:translateZ(0px);
 
 }
 
@@ -819,6 +825,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-attachment: scroll;
 }
 
 header .header-content {
