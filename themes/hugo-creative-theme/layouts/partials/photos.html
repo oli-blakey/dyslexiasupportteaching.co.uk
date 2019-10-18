@@ -1,11 +1,14 @@
 {{ "<!-- PHOTOS -->" | safeHTML }}
-<section id="photos" class=" bg-dark">
+<section id="photos" >
+
+    <div class="bg-dark testZ" >
     <h2>Here are some examples of the multisensory activities I use in lessons:</h2>
 <div id="photosStickyBackground">    
         <img src="img/mediumTree.svg" id="mediumTreePhotos">
         <img src="img/wordTreeLessLetters.svg" id="wordTreeLessLettersPhotos">
 
 </div>
+<div id="zReset" style="" class="">
         <!--gallery currently initialised in gallery1.md-->
         {{.Content}}
             {{with .Site.GetPage "/posts/gallery1.md"}}
@@ -21,4 +24,6 @@
             {{with .Site.GetPage "/posts/gallery3.md"}}
         {{.Content}}
         {{end}}
+    </div>
+</div>
 </section>
