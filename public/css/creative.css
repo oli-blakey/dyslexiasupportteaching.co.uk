@@ -94,6 +94,8 @@ a:focus {
 }
 
 /*Nav*/
+#mainNav{
+}
 
 
 
@@ -168,47 +170,30 @@ a:focus {
 #photos {
     margin-bottom: 0px;
     padding: 20px 0;
-    transform-style: preserve-3d;
 }
 
 #photos h2{
   padding-bottom: 4rem;
-  -webkit-transform:translateZ(2px);
-  -moz-transform:translateZ(2px);
-  -o-transform:translateZ(2px);
-  transform:translateZ(2px);
+
 }
 #photos p {
   margin-bottom: 20px;
-  -webkit-transform:translateZ(2px);
-  -moz-transform:translateZ(2px);
-  -o-transform:translateZ(2px);
-  transform:translateZ(2px);
+
 }
 
 #photos figcaption p{
   margin-bottom: 0;
-  -webkit-transform:translateZ(10px);
-  -moz-transform:translateZ(10px);
-  -o-transform:translateZ(10px);
-  transform:translateZ(10px);
+
 }
 
 #photos figure {
-  -webkit-transform:translateZ(2px);
-  -moz-transform:translateZ(2px);
-  -o-transform:translateZ(2px);
-  transform:translateZ(2px);
+
 }
 #photosStickyBackground{
     position: -webkit-sticky;
     position: sticky; 
     top:50px;
     margin-bottom: 200px;
-    -webkit-transform:translateZ(1px);
-    -moz-transform:translateZ(1px);
-    -o-transform:translateZ(1px);
-    transform:translateZ(1px);
 
 }
 
