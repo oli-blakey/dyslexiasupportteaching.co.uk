@@ -95,10 +95,6 @@ a:focus {
 
 /*Nav*/
 #mainNav{
-  -webkit-transform:translateZ(4px);
-  -moz-transform:translateZ(4px);
-  -o-transform:translateZ(4px);
-  transform:translateZ(4px);
 }
 
 
@@ -174,47 +170,30 @@ a:focus {
 #photos {
     margin-bottom: 0px;
     padding: 20px 0;
-    transform-style: preserve-3d;
 }
 
 #photos h2{
   padding-bottom: 4rem;
-  -webkit-transform:translateZ(2px);
-  -moz-transform:translateZ(2px);
-  -o-transform:translateZ(2px);
-  transform:translateZ(2px);
+
 }
 #photos p {
   margin-bottom: 20px;
-  -webkit-transform:translateZ(2px);
-  -moz-transform:translateZ(2px);
-  -o-transform:translateZ(2px);
-  transform:translateZ(2px);
+
 }
 
 #photos figcaption p{
   margin-bottom: 0;
-  -webkit-transform:translateZ(3px);
-  -moz-transform:translateZ(3px);
-  -o-transform:translateZ(3px);
-  transform:translateZ(3px);
+
 }
 
 #photos figure {
-  -webkit-transform:translateZ(2px);
-  -moz-transform:translateZ(2px);
-  -o-transform:translateZ(2px);
-  transform:translateZ(2px);
+
 }
 #photosStickyBackground{
     position: -webkit-sticky;
     position: sticky; 
     top:50px;
     margin-bottom: 200px;
-    -webkit-transform:translateZ(0px);
-    -moz-transform:translateZ(0px);
-    -o-transform:translateZ(0px);
-    transform:translateZ(0px);
 
 }
 
@@ -825,7 +804,6 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-attachment: scroll;
 }
 
 header .header-content {
