@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-<p class="">
+<p class="photosText">
 Moving onto a more advanced stage of learning: the long vowel sounds.
 Using the story mountain board they set the scene with the objects, chose 'story word cards' and go onto make their own story book. The visual use of the story board gives structure to the narrative writing, from the opening, building up to the peak and finally on to the resolution and ending.
 </p>

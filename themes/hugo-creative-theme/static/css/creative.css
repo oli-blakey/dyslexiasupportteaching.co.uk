@@ -168,19 +168,20 @@ a:focus {
 /*Photos*/
 
 #photos {
-    margin-bottom: 0px;
-    padding-top: 20px;
+    margin-bottom: 0;
+    padding-top: 0;
     padding-bottom: 0;
     position: relative;
 
 }
 
-.testZ {
+.backGroundWrapper {
+  padding-top: 2rem;
   position: relative;
 
 }
 
-#zReset {
+#galleryWrapper {
   position: relative;
 
 }
@@ -218,13 +219,11 @@ a:focus {
   width:400px;
   position: absolute;
   right: 0;
+  /*top:-100px;*/
 }
 
 #mediumTreePhotos {
-
     text-align: unset;
-
-
     position: absolute;
     left: 0;
 }
@@ -250,6 +249,24 @@ a:focus {
 #photos1stP {
   margin-top: -200px;
 }
+#photos h2 {
+  top: -18rem;
+  z-index: 100;
+  position: relative;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+@media(min-width: 768px){
+.photosText {
+  margin-left:6rem;
+  margin-right:6rem;
+}
+}
+
+.photosText {
+  margin-left:1rem;
+  margin-right:1rem;
+}
 
 /*Testimonials*/
 
@@ -257,6 +274,7 @@ a:focus {
     overflow: hidden;
     background-color: #d5d5e6ff;
     opacity: 0.99;
+    padding: 2rem;
 }
 
 @media(min-width:992px) {
@@ -293,6 +311,7 @@ a:focus {
     overflow: hidden;
     position: relative;
     margin-bottom: 0;
+    background-color: #f8f8ff;
 }
 
 #feesText {
@@ -374,8 +393,8 @@ a:focus {
 /*footer*/
 
 footer p{
-
-  margin-top: 20px;
+  margin:0;
+  padding: 2rem 2rem;
 }
 
 
@@ -883,13 +902,16 @@ header .header-content .header-content-inner p {
 
 /*Services seciton 560*/
 
+#services{
+    margin: 0 0;
+    padding: 2rem 2rem; 
+}
+
 @media(min-width: 560px){
 #services{
     overflow: hidden;
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-size: 130px;
+    position: relative; 
+    background-size: contain;
     background-repeat: repeat-y;
     background-image: url(../img/leftLeaves.svg);
 
@@ -914,7 +936,7 @@ header .header-content .header-content-inner p {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
 }
 }
 
@@ -949,6 +971,7 @@ header .header-content .header-content-inner p {
 #rightLeaves {
     position: absolute;
     right: 0;
+    top: 0;
     height: 100%;
 }
 

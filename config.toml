@@ -75,14 +75,14 @@ enableInlineShortcodes = true
 	[params.testimonials]
     enable = true
     title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    subtitle = "I have been fortunate to work with many young learners over the years.  Here are some comments from the Parents:"
 
     # Fees
     [params.fees]
     enable = true
     title = "Fees"
 	fees = "1hr £24, Traveling costs 45p per a mile"
-	cancellationPolicy = "24 hours notice required, otherwise a 50% charge  will be applied"
+	cancellationPolicy = "24 hours cancellation notice required, otherwise a 50% charge  will be applied"
 
 	# Service section
 	[params.services]

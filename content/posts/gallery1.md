@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-<p id="photos1stP">
+<p id="photos1stP" class="photosText">
 A typical lesson will start with revision of newly learnt sounds, then consolidation by going over the sound cards they have made.
 </p>
 {{< load-photoswipe >}}
