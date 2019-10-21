@@ -68,18 +68,35 @@ hr.light {
 }
 
 #smallTreeHero {
-    width: 7%;
+    width: 15%;
     position: absolute;
-    bottom: 5rem;
-    left: 4rem;
+    bottom: 2rem;
+    left: 2rem;
 }
 
 #mediumTreeHero {
-    width: 10%;
+    width: 21%;
     position: absolute;
-    bottom: 5rem;
-    right: 4rem;
+    bottom: 2rem;
+    right: 2rem;
 }
+
+@media(min-width: 768px){
+  #smallTreeHero {
+      width: 7%;
+      position: absolute;
+      bottom: 5rem;
+      left: 4rem;
+  }
+
+  #mediumTreeHero {
+      width: 10%;
+      position: absolute;
+      bottom: 5rem;
+      right: 4rem;
+  }  
+}
+
 
 a {
     color: #2c2c83ff;
@@ -256,17 +273,19 @@ a:focus {
   -webkit-transform: translate3d(0,0,0);
 }
 
-@media(min-width: 768px){
-.photosText {
-  margin-left:6rem;
-  margin-right:6rem;
-}
-}
-
 .photosText {
   margin-left:1rem;
   margin-right:1rem;
 }
+
+@media(min-width: 768px){
+.photosText {
+  margin-left:10rem;
+  margin-right:10rem;
+}
+}
+
+
 
 /*Testimonials*/
 
@@ -304,6 +323,14 @@ a:focus {
     display: none;
 }
 }
+
+@media(max-width:335px) {
+  #testimonials h5 {
+    letter-spacing: 0.0em;  
+  }
+}
+
+
 
 /*Fees*/
 
@@ -722,6 +749,17 @@ aside {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+@media(max-width: 358px){
+  .navbar-brand {
+    font-size: 15px;
+  }
+}
+@media(max-width: 313px){
+  .navbar-brand {
+    font-size: 13px;
+  }
 }
 
 .navbar-default .navbar-header .navbar-brand {
