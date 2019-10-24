@@ -7,11 +7,16 @@
 <title>{{ .Site.Title }}</title>
 
 <!--nb style.default.css from universal theme overridding creative theme css elements TODO get just whats needed for testimonials css and put in custom.css file # dirty hack-->
-<link href="{{ "css/style.default.css" | relURL}}" rel="stylesheet" id="theme-stylesheet">
+{{$styleDefaultCSS := resources.Get "css/style.default.css"}}
+{{$styleDefaultCSSmin := $styleDefaultCSS | resources.Minify}}
+<link href="{{ $styleDefaultCSSmin.Permalink }}" rel="stylesheet" id="theme-stylesheet">
 {{ "<!-- Favicon -->" | safeHTML }}
 <link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}">
 {{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
-<link rel="stylesheet" href="{{ "css/bootstrap.css" | absURL }}" type="text/css">
+
+{{$bootstrapCSS := resources.Get "css/bootstrap.css"}}
+{{$bootstrapCSSmin := $bootstrapCSS | resources.Minify}}
+<link rel="stylesheet" href="{{ $bootstrapCSSmin.Permalink }}" type="text/css">
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -19,13 +24,32 @@
 {{ "<!-- Plugin CSS -->" | safeHTML }}
 <link rel="stylesheet" href="{{ "css/animate.min.css" | absURL }}" type="text/css">
 {{ "<!-- Custom CSS -->" | safeHTML }}
-<link rel="stylesheet" href="{{ "css/creative.css" | absURL }}" type="text/css">
-<link rel="stylesheet" href="{{ "css/modals.css" | absURL }}" type="text/css" media="print" onload="this.media='all'">
+{{$creativeCSS := resources.Get "css/creative.css"}}
+{{$creativeCSSmin := $creativeCSS | resources.Minify}}
+<link rel="stylesheet" href="{{ $creativeCSSmin.Permalink }}" type="text/css">
 
-<link rel="stylesheet" href="{{ "css/owl.carousel.css" | absURL }}" type="text/css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ "css/owl.theme.css" | absURL }}" type="text/css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ "css/photoswipe.css" | absURL }}" type="text/css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ "css/default-skin/default-skin.css" | absURL }}" type="text/css" media="print" onload="this.media='all'">
+{{$modalsCSS := resources.Get "css/modals.css"}}
+{{$modalsCSSmin := $modalsCSS | resources.Minify}}
+<link rel="stylesheet" href="{{ $modalsCSSmin.Permalink }}" type="text/css" media="print" onload="this.media='all'">
+
+
+{{$owlCarouselCSS := resources.Get "css/owl.carousel.css"}}
+{{$owlCarouselCSSmin := $owlCarouselCSS | resources.Minify}}
+<link rel="stylesheet" href="{{ $owlCarouselCSSmin.Permalink }}" type="text/css" media="print" onload="this.media='all'">
+
+{{$owlThemeCSS := resources.Get "css/owl.theme.css"}}
+{{$owlThemeCSSmin := $owlThemeCSS | resources.Minify}}
+<link rel="stylesheet" href="{{ $owlThemeCSSmin.Permalink }}" type="text/css" media="print" onload="this.media='all'">
+
+{{$photoswipeCSS := resources.Get "css/photoswipe.css"}}
+{{$photoswipeCSSmin := $photoswipeCSS | resources.Minify}}
+<link rel="stylesheet" href="{{ $photoswipeCSSmin.Permalink }}" type="text/css" media="print" onload="this.media='all'">
+
+
+{{$defaultSkinCSS := resources.Get "css/photoswipe.css"}}
+{{$defaultSkinCSSmin := $defaultSkinCSS | resources.Minify}}
+
+<link rel="stylesheet" href="{{ $defaultSkinCSSmin.Permalink }}" type="text/css" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ "css/gallery.css" | absURL }}" type="text/css" media="print" onload="this.media='all'">
 
 <!-- leaflet maps find minified version? -->

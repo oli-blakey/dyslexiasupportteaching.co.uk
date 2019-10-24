@@ -19,7 +19,6 @@ $(function () {
   utils()
   animations()
   counters()
-  demo()
   contactFormAjax()
 })
 

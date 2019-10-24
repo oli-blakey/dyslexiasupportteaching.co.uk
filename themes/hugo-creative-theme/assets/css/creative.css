@@ -51,9 +51,6 @@ html {
 
 }
 
-    height: 100%;
-}
-
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
@@ -1365,7 +1362,6 @@ body {
 @-moz-keyframes spinBack { from{ -moz-transform: rotate(-180deg); } to{-moz-transform: rotate(0deg);} }
 @-webkit-keyframes spinBack { from{ -webkit-transform: rotate(-180deg); } to {-webkit-transform: rotate(0deg);} }
 @keyframes spinBack { from { -webkit-transform: rotate(-180deg); transform:rotate(-180deg); } to{-webkit-transform: rotate(0deg); transform:rotate(0deg);}}
-
 
 .testimonial .text {
   margin-bottom:0;

@@ -142,5 +142,3 @@ enableInlineShortcodes = true
 	#Footer
 	[params.footer]
 		footerText = "This website uses cookies. By continuing to browse this site you are agreeing to our use of cookies.Free hosting provided by GitHub Pages"
-
-
