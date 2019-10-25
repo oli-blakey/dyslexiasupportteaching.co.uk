@@ -869,7 +869,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background: url(../img/lightBulbBlackBoardHeader.jpg) no-repeat center center fixed;
+    background: url(../img/lightBulbBlackBoardHeaderSmall.jpg) no-repeat center center fixed;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -878,6 +878,16 @@ header {
     background-attachment: scroll;
 }
 
+@media only screen and (min-device-width:400px){
+  header {
+    background: url(../img/lightBulbBlackBoardHeader.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+  }
+}
 header .header-content {
     position: relative;
     width: 100%;
