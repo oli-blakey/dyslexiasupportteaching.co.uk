@@ -9,9 +9,11 @@ Grid Layout Styles
 */
 .gallery {
     overflow: hidden;
-    margin-left: 10%;
-    max-width: 80%;
+    margin-left: 2%;
+    max-width: 96%;
 }
+
+
 .gallery .box {
     float: left;
     position: relative;
@@ -21,6 +23,10 @@ Grid Layout Styles
 }
 @media only screen and (min-width : 365px) {
     /* Tablet view: 2 tiles */
+    .gallery {
+        margin-left: 3%;
+        max-width: 94%;
+    }
     .gallery .box {
         width: 50%;
         padding-bottom: 50%;
@@ -28,6 +34,10 @@ Grid Layout Styles
 }
 @media only screen and (min-width : 480px) {
     /* Small desktop / ipad view: 3 tiles */
+    .gallery {
+        margin-left: 5%;
+        max-width: 90%;
+    }
     .gallery .box {
         width: 33.3%;
         padding-bottom: 33.3%; /*  */
