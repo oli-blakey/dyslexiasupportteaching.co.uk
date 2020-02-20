@@ -4,7 +4,7 @@ date: 2019-08-08T17:15:54+01:00
 draft: false
 ---
 
-<h4><b>Part of our lesson will consist of the development of perceptual skills. These are of prime importance for learning.</b>
+<h4><b>Part of our lesson will consist of the development of perceptual skills, these are of prime importance for learning.</b>
 </h4>
 <p class="photosText">
 Matching cubes- These cubes improve different skills such as visual memory and spatial reasoning, dexterity of thumb and finger and pattern matching on each card.

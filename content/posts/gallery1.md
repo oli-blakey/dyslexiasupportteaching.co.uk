@@ -13,7 +13,7 @@ A typical lesson will start with revision of newly learnt sounds, then consolida
 {{<figure link="img/photos/IMG_6822-comp.JPG" caption="Early recognition of sounds" thumb="-thumb">}}
 {{<figure link="img/photos/IMG_6830-comp.JPG" caption="Formation of new sounds learnt using sand tray" thumb="-thumb">}}
 {{<figure link="img/photos/IMG_6837-comp.JPG" caption="Tracing of sounds with coloured pens" thumb="-thumb">}}
-{{<figure link="img/photos/IMG_6841-comp.JPG" caption="Making up c.v.c words using the letters" thumb="-thumb">}}
+{{<figure link="img/photos/IMG_6841-comp.JPG" caption="Making up consonant-vowel-consonant words using the letters" thumb="-thumb">}}
 {{<figure link="img/photos/IMG_6852-comp.JPG" caption="Reading a sentence and cutting up to remake the sentence" thumb="-thumb">}}
 {{<figure link="img/photos/IMG_6855-comp.JPG" caption="Writing out the sentences" thumb="-thumb">}}
 {{<figure link="img/photos/IMG_6916-comp.JPG" caption="Self correcting exercise for phonics, comprehension and grammer" thumb="-thumb">}}
