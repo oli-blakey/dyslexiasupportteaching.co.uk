@@ -49,7 +49,7 @@ enableInlineShortcodes = true
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Unlocking your child's full potential"
-		subtitle   = "After-school and weekend tuition using a structured multi-sensory literacy programme for pupils aged five and over, who may be experiencing some learning difficulties."
+		subtitle   = "After-school and weekend tuition using a structured multi-sensory literacy programme. Pupils from the age of 5 and over, who may be experiencing some learning difficulties."
 		buttonText = "Contact me"
 
 
@@ -142,3 +142,7 @@ enableInlineShortcodes = true
 	#Footer
 	[params.footer]
 		footerText = "This website uses cookies. By continuing to browse this site you are agreeing to our use of cookies.Free hosting provided by GitHub Pages"
+
+	#.6 allow raw html
+	[markup.goldmark.renderer]
+	unsafe= true

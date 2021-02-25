@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Footers on Dyslexia support teaching</title><link>https://dyslexiasupportteaching.co.uk/footer/</link><description>Recent content in Footers on Dyslexia support teaching</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 06 Aug 2019 16:34:05 +0100</lastBuildDate><atom:link href="https://dyslexiasupportteaching.co.uk/footer/index.xml" rel="self" type="application/rss+xml"/><item><title>FooterText</title><link>https://dyslexiasupportteaching.co.uk/footer/footertext/</link><pubDate>Tue, 06 Aug 2019 16:34:05 +0100</pubDate><guid>https://dyslexiasupportteaching.co.uk/footer/footertext/</guid><description> This website uses cookies. By continuing to browse this site you are agreeing to our use of cookies. &amp;copy; 2020 Oliver Blakey &amp; Artwork and Design by Catherine Imrie. Free hosting provided by GitHub Pages.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Footers on Dyslexia support teaching</title>
+    <link>https://dyslexiasupportteaching.co.uk/footer/</link>
+    <description>Recent content in Footers on Dyslexia support teaching</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Aug 2019 16:34:05 +0100</lastBuildDate>
+    
+	<atom:link href="https://dyslexiasupportteaching.co.uk/footer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FooterText</title>
+      <link>https://dyslexiasupportteaching.co.uk/footer/footertext/</link>
+      <pubDate>Tue, 06 Aug 2019 16:34:05 +0100</pubDate>
+      
+      <guid>https://dyslexiasupportteaching.co.uk/footer/footertext/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
